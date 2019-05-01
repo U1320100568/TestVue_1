@@ -1,0 +1,16 @@
+.middle{
+	/*text-align: center;*/
+	margin : 0 auto;
+	position: relative;
+	height: 600px;
+}
+.content{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+
+}
+h1 {
+	color: #7ea3dd;
+}
