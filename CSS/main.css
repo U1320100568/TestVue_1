@@ -13,4 +13,5 @@
 }
 h1 {
 	color: #7ea3dd;
+	word-wrap: nowrap;
 }
