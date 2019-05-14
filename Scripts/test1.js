@@ -1,4 +1,4 @@
-//柯萊伯瑞面試題
+
 var array = [];
 for(let i = 0 ; i<10;i++){
 	array.push({index: i});
