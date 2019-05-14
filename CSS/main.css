@@ -1,8 +1,11 @@
+
+
 .middle{
 	/*text-align: center;*/
 	margin : 0 auto;
-	position: relative;
+	/*position: relative; 此處沒有relative才能垂直致中*/
 	height: 600px;
+	width:600px;
 }
 .content{
 	position:absolute;
@@ -14,4 +17,15 @@
 h1 {
 	color: #7ea3dd;
 	word-wrap: nowrap;
+}
+
+.triangle {
+	position: absolute;
+	top :0;
+	right:0;
+	width: 0px;
+	height: :0px;
+	border-width: 0 10px 10px 0 ; /*注意此處，雖然是右上，卻須以border角度看*/
+	border-style: solid;  
+	border-color:  transparent #7ea3dd; /*上下透明  左右顏色*/
 }

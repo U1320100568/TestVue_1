@@ -4,19 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Vue Test 1</title>
 	<link rel="stylesheet" href="CSS/main.css" >
+	<link rel="stylesheet" href="CSS/bootstrap.min.css">
+	
+<!-- 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ -->
 </head>
-<body>
+<body >
 	<div id="app">
 		<div class="middle">
 			<div class="content">
-				<h1>{{title}}</h1>
+				<h1>{{title }}</h1>
 				<img src="http://file.tintuckpop.net/resize/640x-/music/2017/04/11/eunji1-34ef.jpg" alt="圖片失效">
+				<menu-section></menu-section>
+				<description-section></description-section>
+				<button class="btn btn-dark">減少</button>
+				<button class="btn btn-info">增加</button>
+				<div class="triangle"></div>
 			</div>
+
 		</div>
 	</div>
 	
+	<script src="Script/bootstrap.min.js"></script>
 	<script src="Scripts/vue.js"></script>
 	<script src="Scripts/test1.js"></script>
-
 </body>
 </html>
