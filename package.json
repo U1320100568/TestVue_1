@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/U1320100568/TestVue_1/issues"
   },
-  "homepage": "https://github.com/U1320100568/TestVue_1#readme"
+  "homepage": "https://github.com/U1320100568/TestVue_1#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
